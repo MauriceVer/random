@@ -6,18 +6,32 @@
         </title>
     </head>
     <style>
+        body{
+            font-family: Arial, sans-serif;
+        }
         .menubalk{
-            width: 100%;
+            width: 73%;
+            height: 125%;
+            position:  relative; right: -225px;
         }
         .logo{
             position: absolute;
             margin-left: 1350px;
             margin-top: 250px;
         }
+        .schaduw{
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        .shaduw{
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            font-weight: -500;
+        }
     </style>
     <body>
         <img src="menubalk.jpg" class="menubalk">
         <img src="logo.png" class="logo">
         <img src="slider-hvc-hvc.webp" class="foto">
+        <h1 style=" font-size: 100px; position: relative; top: -700px; right: -450px; color: white;" class="schaduw">samen</h1>
+        <p style="font-size: 100px; position: relative; top: -915px; right: -800px; color: white;" class="shaduw">morgen maken</p>
     </body>
 </html>
