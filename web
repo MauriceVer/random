@@ -9,11 +9,6 @@
         body{
             font-family: Arial, sans-serif;
         }
-        .menubalk{
-            width: 73%;
-            height: 125%;
-            position:  relative; right: -225px;
-        }
         .logo{
             position: absolute;
             margin-left: 1350px;
@@ -26,9 +21,35 @@
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
             font-weight: -500;
         }
+        .menu{
+            display: flex;
+            list-style-type: none;
+        }
+        .menu a{
+            color: rgb(22, 7, 109);
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            display: flex;
+        }
+        .menu a:hover{
+            color: rgb(2, 160, 160);
+        }
+        .caret{
+            font-size: 2em;
+            margin-left: 5px;
+            transform: translateY(-9px);
+        }
     </style>
     <body>
-        <img src="menubalk.jpg" class="menubalk">
+        <nav>
+            <ul class="menu">
+                <li><a href="Untitled-1.html">leerlingen & ouders<span class="caret">&#9662;</span></a></li>
+                <li><a href="Untitled-1.html">onze school<span class="caret">&#9662;</span></a></li>
+                <li><a href="Untitled-1.html">ondersteuning<span class="caret">&#9662;</span></a></li>
+                <li><a href="Untitled-1.html">actueel<span class="caret">&#9662;</span></a></li>
+            </ul>
+        </nav>
         <img src="logo.png" class="logo">
         <img src="slider-hvc-hvc.webp" class="foto">
         <h1 style=" font-size: 100px; position: relative; top: -700px; right: -450px; color: white;" class="schaduw">samen</h1>
