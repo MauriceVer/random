@@ -1,58 +1,147 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            website van HVC
-        </title>
-    </head>
+<head>
+    <title>Website van HVC</title>
     <style>
-        body{
+        body {
             font-family: Arial, sans-serif;
         }
-        .logo{
+
+        .logo {
             position: absolute;
             margin-left: 1350px;
             margin-top: 250px;
         }
-        .schaduw{
+        .schaduw {
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
         }
-        .shaduw{
+
+        .shaduw {
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
             font-weight: -500;
         }
-        .menu{
+
+        .menu {
             display: flex;
             list-style-type: none;
+            padding: 0;
+            margin: 0;
+            background-color: #f1f1f1;
         }
-        .menu a{
+
+        .menu > li {
+            position: relative;
+        }
+
+        .menu a {
             color: rgb(22, 7, 109);
             padding: 14px 20px;
             text-decoration: none;
             text-align: center;
             display: flex;
+            align-items: center;
         }
-        .menu a:hover{
+
+        .menu a:hover {
             color: rgb(2, 160, 160);
         }
-        .caret{
-            font-size: 2em;
+
+        .caret {
+            font-size: 1em;
             margin-left: 5px;
-            transform: translateY(-9px);
+            transform: scaleX(1.5);
+            margin-left: 10px;
+        }
+        .submenu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #f1f1f1;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .submenu li a {
+            padding: 12px 20px;
+            color: rgb(22, 7, 109);
+            text-decoration: none;
+            display: block;
+        }
+
+        .submenu li a:hover {
+            color: rgb(2, 160, 160);
+        }
+        .menu > li:hover .submenu {
+            display: block;
         }
     </style>
-    <body>
-        <nav>
-            <ul class="menu">
-                <li><a href="Untitled-1.html">leerlingen & ouders<span class="caret">&#9662;</span></a></li>
-                <li><a href="Untitled-1.html">onze school<span class="caret">&#9662;</span></a></li>
-                <li><a href="Untitled-1.html">ondersteuning<span class="caret">&#9662;</span></a></li>
-                <li><a href="Untitled-1.html">actueel<span class="caret">&#9662;</span></a></li>
-            </ul>
-        </nav>
-        <img src="logo.png" class="logo">
-        <img src="slider-hvc-hvc.webp" class="foto">
-        <h1 style=" font-size: 100px; position: relative; top: -700px; right: -450px; color: white;" class="schaduw">samen</h1>
-        <p style="font-size: 100px; position: relative; top: -915px; right: -800px; color: white;" class="shaduw">morgen maken</p>
-    </body>
+</head>
+<body>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="Untitled-1.html">Leerlingen & Ouders <span class="caret"> &#8744;</span></a>
+                <ul class="submenu">
+                    <li><a href="#">Lestijden en toetsweken</a></li>
+                    <li><a href="#">Schoolvakanties en lesvrije dagen</a></li>
+                    <li><a href="#">Rooster, Magister en Wifi</a></li>
+                    <li><a href="#">Rapport & bevorderingsnormen</a></li>
+                    <li><a href="#">Examens</a></li>
+                    <li><a href="#">Afspraken</a></li>
+                    <li><a href="#">Schoolkosten</a></li>
+                    <li><a href="#">Nieuwsbrieven</a></li>
+                    <li><a href="#">GSA</a></li>
+                    <li><a href="#">Meepraten</a></li>
+                    <li><a href="#">Aanmelden</a></li>
+                    <li><a href="#">Absentie doorgeven</a></li>
+                </ul>
+            </li>
+            <li><a href="Untitled-1.html">Onze School <span class="caret"> &#8744;</span></a>
+                <ul class="submenu">
+                    <li><a href="#">Missie en Visie</a></li>
+                    <li><a href="#">Ons team</a></li>
+                    <li><a href="#">Bestuur</a></li>
+                    <li><a href="#">Onderwijskwaliteit</a></li>
+                    <li><a href="#">Lessentabellen en vakken</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Protocollen & regelingen</a></li>
+                    <li><a href="#">Partners</a></li>
+                    <li><a href="#">Werken bij HVC</a></li>
+                    <li><a href="#">Contactgegevens</a></li>
+                </ul>
+            </li>
+            <li><a href="Untitled-1.html">Ondersteuning <span class="caret"> &#8744;</span></a>
+                <ul class="submenu">
+                    <li><a href="#">Coördinator
+                        leerlingondersteuner</a></li>
+                    <li><a href="#">Begeleider Passend Onderwijs</a></li>
+                    <li><a href="#">Orthopedagoog</a></li>
+                    <li><a href="#">Mentoren & Huiswerk begeleiding</a></li>
+                    <li><a href="#">Trajectvoorziening</a></li>
+                    <li><a href="#">Dyslexie en Dyscalculie</a></li>
+                    <li><a href="#">Trainingen</a></li>
+                    <li><a href="#">Vertrouwenspersoon</a></li>
+                    <li><a href="#">Hoogbegaafdheid</a></li>
+                    <li><a href="#">Leerplicht</a></li>
+                </ul>
+            </li>
+            <li><a href="Untitled-1.html">Actueel <span class="caret"> &#8744;</span></a>
+                <ul class="submenu">
+                    <li><a href="#">Nieuws</a></li>
+                    <li><a href="#">Agenda</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <img src="logo.png" class="logo">
+    <img src="slider-hvc-hvc.webp" class="foto">
+    <h1 style="font-size: 100px; position: relative; top: -700px; right: -450px; color: white;" class="schaduw">Samen</h1>
+    <p style="font-size: 100px; position: relative; top: -915px; right: -800px; color: white;" class="shaduw">Morgen maken</p>
+
+</body>
 </html>
