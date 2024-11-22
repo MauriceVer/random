@@ -26,7 +26,7 @@
             list-style-type: none;
             padding: 0;
             margin: 0;
-            background-color: #f1f1f1;
+            justify-content: center;
         }
 
         .menu > li {
@@ -40,6 +40,9 @@
             text-align: center;
             display: flex;
             align-items: center;
+            position: relative;
+            top: 85px;
+            right: 20px;
         }
 
         .menu a:hover {
@@ -89,6 +92,32 @@
         }
         .foto{
             position: relative;
+        }
+        .Ons-onderwijs{
+            display: flex;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            justify-content: center;
+            position: relative;
+            top: 35px;
+            left: 380px;
+        }
+        .Ons-onderwijs a{
+            color: rgb(22, 7, 109);
+            padding: 14px 30px;
+            text-decoration: none;
+            text-align: center;
+            display: flex;
+            border: 2px solid rgb(22, 7, 109);
+            border-radius: 50px;
+            align-items: center;
+        }
+        .Knipsel{
+            position: relative;
+            width: 14%;
+            top: -90px;
+            right: -290px;
         }
     </style>
 </head>
@@ -148,12 +177,17 @@
                 </ul>
             </li>
         </ul>
+        <ul class="Ons-onderwijs">
+            <li><a href="Untitled-1.html">Ons Onderwijs<span class="caret"> &#8744;</span></a>
+        </ul>
     </nav>
 
+    <img src="Knipsel.PNG" class="Knipsel">
     <img src="logo.png" class="logo">
     <img src="slider-hvc-hvc.webp" class="foto">
     <h1 style="font-size: 100px; position: relative; top: -700px; right: -450px; color: white;" class="schaduw">Samen</h1>
     <p style="font-size: 100px; position: relative; top: -915px; right: -800px; color: white;" class="shaduw">Morgen maken</p>
+    <p style="color: #00008B; position: relative; top: -2000px;">Waar ben je naar op zoek:</p>
     <div class="donkerblauw-vlak"></div>
 </body>
 </html>
