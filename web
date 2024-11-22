@@ -78,6 +78,18 @@
         .menu > li:hover .submenu {
             display: block;
         }
+
+        .donkerblauw-vlak{
+            width: 500px;
+            height: 600px;
+            background: linear-gradient(to right, #00008B 50%, rgba(0, 0, 139, 0) 100%);
+            position: absolute;
+            top: 600px;
+            z-index: 10;
+        }
+        .foto{
+            position: relative;
+        }
     </style>
 </head>
 <body>
@@ -142,6 +154,6 @@
     <img src="slider-hvc-hvc.webp" class="foto">
     <h1 style="font-size: 100px; position: relative; top: -700px; right: -450px; color: white;" class="schaduw">Samen</h1>
     <p style="font-size: 100px; position: relative; top: -915px; right: -800px; color: white;" class="shaduw">Morgen maken</p>
-
+    <div class="donkerblauw-vlak"></div>
 </body>
 </html>
