@@ -88,9 +88,12 @@
             z-index: 10;
         }
         .lijn{
-            background-color: teal;
-            width: 100px;
-            height: 100px;
+            background-color: #46a1a1;
+            width: 280px;
+            height: 2px;
+            position: relative;
+            top: -2050px;
+            right: -630px;
         }
         .foto{
             position: relative;
