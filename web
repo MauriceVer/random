@@ -95,6 +95,13 @@
             top: -2050px;
             right: -630px;
         }
+        .pijl{
+            position: relative;
+            top: -2117px;
+            right: -870px;
+            font-size: 30px;
+            color: #46a1a1;
+        }
         .foto{
             position: relative;
         }
@@ -202,6 +209,6 @@
     <p style="color: rgb(22, 7, 109); position: relative; top: -2040px; right: -630px;">Waar ben je naar op zoek:</p>
     <div class="donkerblauw-vlak"></div>
     <div class="lijn"></div>
-    <div class="pijl"></div>
+    <p class="pijl">&#8594;</p>
 </body>
 </html>
