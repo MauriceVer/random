@@ -40,9 +40,6 @@
             text-align: center;
             display: flex;
             align-items: center;
-            position: relative;
-            top: 85px;
-            right: 20px;
         }
 
         .menu a:hover {
@@ -90,6 +87,11 @@
             top: 600px;
             z-index: 10;
         }
+        .lijn{
+            background-color: teal;
+            width: 100px;
+            height: 100px;
+        }
         .foto{
             position: relative;
         }
@@ -116,8 +118,15 @@
         .Knipsel{
             position: relative;
             width: 14%;
-            top: -90px;
+            top: -155px;
             right: -290px;
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            margin-top: 100px;
         }
     </style>
 </head>
@@ -187,7 +196,9 @@
     <img src="slider-hvc-hvc.webp" class="foto">
     <h1 style="font-size: 100px; position: relative; top: -700px; right: -450px; color: white;" class="schaduw">Samen</h1>
     <p style="font-size: 100px; position: relative; top: -915px; right: -800px; color: white;" class="shaduw">Morgen maken</p>
-    <p style="color: #00008B; position: relative; top: -2000px;">Waar ben je naar op zoek:</p>
+    <p style="color: rgb(22, 7, 109); position: relative; top: -2040px; right: -630px;">Waar ben je naar op zoek:</p>
     <div class="donkerblauw-vlak"></div>
+    <div class="lijn"></div>
+    <div class="pijl"></div>
 </body>
 </html>
