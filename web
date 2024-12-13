@@ -82,7 +82,7 @@
             display: flex;
             list-style-type: none;
             justify-content: center;
-            margin-top: 100px;
+            margin: 0;
             padding: 0;
         }
         .rechtsboven a{
@@ -106,12 +106,12 @@
             width: 280px;
             height: 2px;
             position: relative;
-            top: -2050px;
+            top: -2070px;
             right: -630px;
         }
         .pijl{
             position: relative;
-            top: -2117px;
+            top: -2137px;
             right: -870px;
             font-size: 30px;
             color: #46a1a1;
@@ -146,10 +146,10 @@
             border-radius: 50px;
             align-items: center;
         }
-        .waar{
+        .Waar{
             color: rgb(22, 7, 109);
             position: relative;
-            top: -2040px;
+            top: -2060px;
             right: -630px;
         }
         .schaduw{
@@ -162,7 +162,7 @@
         .Knipsel{
             position: relative;
             width: 14%;
-            top: -155px;
+            top: -180px;
             right: -290px;
         }
         nav{
@@ -171,12 +171,24 @@
             align-items: center;
             padding: 10px;
             margin-top: 100px;
+            margin-right: -100px;
         }
         a{
             text-decoration: none;
         }
         ul{
             list-style: none;
+        }
+        .strepen{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .streep{
+            width: 2px;
+            height: 20px;
+            margin: 10px;
+            background-color: #46a1a1;
         }
     </style>
 </head>
@@ -245,6 +257,11 @@
             <li><a href="Untitled-1.html">Magister</a>
             <li><a href="Untitled-1.html">Zermelo</a>
         </ul>
+        <div class="strepen">
+            <div class="streep"></div>
+            <div class="streep"></div>
+            <div class="streep"></div>
+        </div>
         <ul class="groep78">
             <li><a href="Untitled-1.html">Groep 7 en 8</a>
         </ul>
