@@ -31,6 +31,8 @@
 
         .menu > li {
             position: relative;
+            top: -40px;
+            right: -123px;
         }
 
         .menu a {
@@ -78,12 +80,15 @@
         .menu > li:hover .submenu {
             display: block;
         }
-        .rechtsboven{
+        .rechtsboven {
             display: flex;
             list-style-type: none;
             justify-content: center;
             margin: 0;
             padding: 0;
+            position: absolute;
+            top: 35px;
+            right: 380px;
         }
         .rechtsboven a{
             color: rgb(22, 7, 109);
@@ -126,7 +131,18 @@
             margin: 0;
             justify-content: center;
             position: relative;
-            left: 50px;
+            left: 150px;
+            top: -40px;
+        }
+        .Ons-onderwijs a{
+            color: rgb(22, 7, 109);
+            padding: 8px 24px;
+            text-decoration: none;
+            text-align: center;
+            display: flex;
+            border: 2px solid rgb(22, 7, 109);
+            border-radius: 50px;
+            align-items: center;
         }
         .groep78 a{
             display: flex;
@@ -135,16 +151,9 @@
             padding: 14px 30px;
             background-color: #010169;
             border-radius: 70px;
-        }
-        .Ons-onderwijs a{
-            color: rgb(22, 7, 109);
-            padding: 14px 30px;
-            text-decoration: none;
-            text-align: center;
-            display: flex;
-            border: 2px solid rgb(22, 7, 109);
-            border-radius: 50px;
-            align-items: center;
+            position: absolute;
+            top: 70px;
+            right: 80px;
         }
         .Waar{
             color: rgb(22, 7, 109);
@@ -181,14 +190,24 @@
         }
         .strepen{
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
+            position: absolute;
+            top: 37px;
+            right: 460px;
+            width: 250px;
         }
         .streep{
             width: 2px;
             height: 20px;
             margin: 10px;
             background-color: #46a1a1;
+        }
+        .werken{
+            color: rgb(22, 7, 109);
+            position: absolute;
+            top: 32px;
+            left: 1500px;
         }
     </style>
 </head>
