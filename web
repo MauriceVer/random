@@ -9,8 +9,10 @@
 
         .logo {
             position: absolute;
-            margin-left: 1350px;
-            margin-top: 250px;
+            width: 30%;
+            top: 500px;
+            right: ;
+            z-index: 20;
         }
         .schaduw {
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
@@ -99,32 +101,42 @@
             align-items: center;
         }
         .donkerblauw-vlak{
-            width: 800px;
-            height: 600px;
-            background: linear-gradient(to right, #00008B 50%, rgba(0, 0, 139, 0) 100%);
+            width: 700px;
+            height: 945px;
+            background: linear-gradient(to right, #2b2b72 50%, rgba(0, 0, 139, 0) 100%);
             position: absolute;
-            top: 600px;
             z-index: 10;
+            top: 168px;
+        }
+        .donkerblauw-vlak2{
+            width: 700px;
+            height: 945px;
+            background: linear-gradient(to left, #2b2b72 50%, rgba(0, 0, 139, 0) 100%);
+            position: absolute;
+            z-index: 10;
+            top: 168px;
+            right: -100px;
+        }
+        .Waar{
+            color: rgb(22, 7, 109);
+            position: relative;
+            top: -1570px;
+            right: -630px;
         }
         .lijn{
             background-color: #46a1a1;
             width: 280px;
             height: 2px;
             position: relative;
-            top: -2070px;
+            top: -1580px;
             right: -630px;
         }
         .pijl{
             position: relative;
-            top: -2137px;
+            top: -1645px;
             right: -870px;
             font-size: 30px;
             color: #46a1a1;
-        }
-        .foto{
-            position: relative;
-            height: 800px;
-            right: -100px;
         }
         .Ons-onderwijs{
             display: flex;
@@ -157,12 +169,6 @@
             top: 90px;
             right: 260px;
         }
-        .Waar{
-            color: rgb(22, 7, 109);
-            position: relative;
-            top: -2060px;
-            right: -630px;
-        }
         .schaduw{
             font-size: 100px;
             position: relative;
@@ -173,7 +179,7 @@
         .Knipsel{
             position: relative;
             width: 14%;
-            top: -160px;
+            top: -960px;
             right: -290px;
         }
         nav{
@@ -210,6 +216,9 @@
             position: absolute;
             top: 32px;
             left: 1500px;
+        }
+        .foto{
+            width: 75%;
         }
     </style>
 </head>
@@ -292,13 +301,14 @@
     </nav>
 
     <img src="Knipsel.PNG" class="Knipsel">
-    <img src="logo.png" class="logo">
     <img src="slider-hvc-hvc.webp" class="foto">
     <h1 class="schaduw">Samen</h1>
     <p class="schaduw">Morgen maken</p>
     <p class="Waar">Waar ben je naar op zoek:</p>
     <div class="donkerblauw-vlak"></div>
+    <div class="donkerblauw-vlak2"></div>
     <div class="lijn"></div>
     <p class="pijl">&#8594;</p>
+    <img src="logo.png" class="logo">
 </body>
 </html>
